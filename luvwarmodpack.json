@@ -1,0 +1,18 @@
+{
+    "id": "LuVWarModpack",
+    "inheritsFrom": "1.19.2-forge-XXX",
+    "time": "2024-01-01T00:00:00+00:00",
+    "releaseTime": "2024-01-01T00:00:00+00:00",
+    "type": "release",
+    "mainClass": "net.minecraft.launchwrapper.Launch",
+    "arguments": {
+      "game": ["--tweakClass", "net.minecraftforge.fml.common.launcher.FMLTweaker"],
+      "jvm": ["-Xmx2G"]
+    },
+    "libraries": [
+      {
+        "name": "net.minecraftforge:forge:1.19.2-XXX"
+      }
+    ]
+  }
+  
